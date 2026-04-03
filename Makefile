@@ -9,4 +9,5 @@ all: main.o ui.o sensor.o
 
 .PHONY : clean
 clean:
-	rm -rf %.o
+	rm -rf main.o ui.o sensor.o
+	rm -rf all
